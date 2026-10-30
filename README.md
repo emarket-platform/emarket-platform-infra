@@ -1,3 +1,3 @@
 # emarket-platform-infra
-Независимое управление инфраструктурой
+Независимое управление инфраструктурой.
 Docker Compose, Minikube/Kubernetes, инфраструктура и deployment-скрипты
