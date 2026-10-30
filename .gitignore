@@ -1,0 +1,57 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Credentials and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+secrets/
+certs/private/
+
+# Kubernetes local state
+.kube/
+minikube-data/
+kubeconfig
+kubeconfig.*
+
+# Terraform (if added later)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Docker volumes and persistent data
+docker-data/
+volumes/
+data/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Backup files
+*.bak
+*.backup
+*.old
